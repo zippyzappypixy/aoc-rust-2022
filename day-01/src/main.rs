@@ -1,4 +1,4 @@
-use anyhow::{bail, Context, Result};
+use anyhow::{Context, Result, bail};
 
 /// Parses the input into a vector of total calories per elf.
 pub fn parse_elf_calories(input: &str) -> Result<Vec<u32>> {
